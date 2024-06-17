@@ -2,6 +2,7 @@ import express from 'express';
 import {MongoClient, ServerApiVersion} from 'mongodb';
 import cors from 'cors';
 import dotenv from 'dotenv';
+import bodyParser from 'body-parser';
 
 
 const app = express();
